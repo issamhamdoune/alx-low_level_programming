@@ -2,19 +2,15 @@
 
 /**
  * swap_int - swaps the values of two integers
- *		using two input parameters
- *
- * @: input parameters 1
- * @b: input parameter 2
- *
- * Return: Nothing
+ * @a: integer to swap
+ * @b: integer to swap
 */
 
 void swap_int(int *a, int *b)
 {
-	int temp;
+	int m;
 
-	temp = *a;
+	m = *a;
 	*a = *b;
-	*b = temp;
+	*b = m;
 }
