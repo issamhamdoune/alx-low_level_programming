@@ -37,6 +37,7 @@ int inception(char *s1, char *s2)
  * wildcmp - compares two strings lexicographically
  * @s1: the first string
  * @s2: the second string, can contain wildcard
+ *
  * Return: 1 if identical, 0 if false
  */
 int wildcmp(char *s1, char *s2)
@@ -65,4 +66,3 @@ int wildcmp(char *s1, char *s2)
 	}
 	return (0);
 }
-
