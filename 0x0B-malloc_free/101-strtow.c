@@ -82,7 +82,7 @@ void util(char **words, char *str)
  * @str: the string
  * @start: the starting index of the word
  * @end: the stopping index of the word
- * @index: the index of the arrsy to insert the word
+ * @index: the index of the array to insert the word
  */
 void create_word(char **words, char *str, int start, int end, int index)
 {
