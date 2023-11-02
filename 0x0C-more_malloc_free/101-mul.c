@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _print - moves a string one place to the left and prints tthe string
+ * _print - moves a string one place to the left and prints the string
  * @str: string to move
  * @l: size of string
  *
@@ -75,7 +75,7 @@ int check_for_digits(char **av)
 	{
 		for (j = 0; av[i][j]; j++)
 		{
-			if (av[i][j] < 'a' || av[i][j] > '9')
+			if (av[i][j] < '0' || av[i][j] > '9')
 				return (1);
 		}
 	}
