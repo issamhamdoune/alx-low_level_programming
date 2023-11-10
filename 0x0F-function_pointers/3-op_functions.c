@@ -3,11 +3,11 @@
 #include <stdio.h>
 
 /**
- * op_add - adds two integers
- * @a: the first int
- * @b: the second int
+ * op_add - ...
+ * @a: ...
+ * @b: ...
  *
- * Return: the sum
+ * Return: ...
  */
 int op_add(int a, int b)
 {
@@ -15,33 +15,15 @@ int op_add(int a, int b)
 }
 
 /**
- * op_sub - substracts two integers
- * @a: the first int
- * @b: the second int
+ * op_sub - ...
+ * @a: ...
+ * @b: ...
  *
- * Return: the difference
+ * Return: ...
  */
 int op_sub(int a, int b)
 {
 	return (a - b);
-}
-
-/**
- * op_mod - module two integers
- * @a: the first int
- * @b: the second int
- *
- * Return: the remainder
- */
-int op_mod(int a, int b)
-{
-	if (b == 0)
-	{
-		printf("Error\n");
-		exit(100);
-	}
-
-	return (a % b);
 }
 
 /**
@@ -67,9 +49,28 @@ int op_div(int a, int b)
 {
 	if (b == 0)
 	{
+
 		printf("Error\n");
 		exit(100);
 	}
 
 	return (a / b);
+}
+
+/**
+ * op_mod - ...
+ * @a: ...
+ * @b: ...
+ *
+ * Return: ...
+ */
+int op_mod(int a, int b)
+{
+	if (b == 0)
+	{
+		printf("Error\n");
+		exit(100);
+	}
+
+	return (a % b);
 }
